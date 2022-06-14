@@ -1,16 +1,10 @@
-<template></template>
+<template>
+	<router-link to="/" activeClass="underline">Go to Index</router-link>
+	<router-link to="/run" activeClass="underline">Go to Run</router-link>
 
-<script setup lang="ts">
-if (!navigator.geolocation) {
-	console.log('geolocation is not supproted');
-} else {
-	navigator.geolocation.watchPosition(
-		(success) => {
-      success.coords
-    },
-		(error) => {}
-	);
-}
-</script>
+	<router-view></router-view>
+</template>
+
+<script setup lang="ts"></script>
 
 <style></style>
