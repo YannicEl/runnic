@@ -14,7 +14,9 @@
 </template>
 
 <script setup lang="ts">
-let positions = $ref<GeolocationPosition>([]);
+import { ref } from 'vue';
+
+const positions = ref<GeolocationPosition[]>([]);
 
 if (!navigator.geolocation) {
 	console.log('geolocation is not supproted');
@@ -22,7 +24,7 @@ if (!navigator.geolocation) {
 	navigator.geolocation.watchPosition(
 		(success) => {
 			console.log(success);
-			positions.push(success);
+			positions.value.push(success);
 		},
 		(error) => {
 			console.error('lol gps error');
