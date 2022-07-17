@@ -13,7 +13,7 @@ export default defineConfig({
 		}),
 		Components(),
 		AutoImport({
-			imports: ['vue', 'vue/macros', '@vueuse/core', 'vue-router'],
+			imports: ['vue', 'vue/macros', '@vueuse/core', , 'vue-router'],
 			dirs: ['./src/composables'],
 			vueTemplate: true,
 		}),
