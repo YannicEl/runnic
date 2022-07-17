@@ -1,6 +1,8 @@
 <template>
 	<h1>Run</h1>
 
+
+
 	<ul>
 		<li v-for="{ coords } in positions" class="mt-4 pb-1 border-b border-black">
 			<div>longitude: {{ coords.longitude }}</div>
