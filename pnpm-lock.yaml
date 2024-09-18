@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/node': ^16.11.45
   '@unocss/reset': ^0.44.3
-  '@vitejs/plugin-vue': ^3.0.0
+  '@vitejs/plugin-vue': ^5.1.4
   '@vueuse/core': ^8.9.4
   typescript: ^4.7.4
   unocss: ^0.44.3
@@ -21,7 +21,7 @@ dependencies:
 devDependencies:
   '@types/node': 16.11.45
   '@unocss/reset': 0.44.3
-  '@vitejs/plugin-vue': 3.0.0_vite@3.0.0+vue@3.2.37
+  '@vitejs/plugin-vue': 5.1.4_vite@3.0.0+vue@3.2.37
   '@vueuse/core': 8.9.4_vue@3.2.37
   typescript: 4.7.4
   unocss: 0.44.3_vite@3.0.0
@@ -291,11 +291,11 @@ packages:
       vite: 3.0.0
     dev: true
 
-  /@vitejs/plugin-vue/3.0.0_vite@3.0.0+vue@3.2.37:
-    resolution: {integrity: sha512-yWP34ArFh/jAeNUDkkLz/kVRLjf5ppJiq4L36f64Cp6dIrMQeYZGDP9xxdemlXfZR9ylN9JgHUl3GzfqOtgYDg==}
-    engines: {node: '>=14.18.0'}
+  /@vitejs/plugin-vue/5.1.4_vite@3.0.0+vue@3.2.37:
+    resolution: {integrity: sha512-N2XSI2n3sQqp5w7Y/AN/L2XDjBIRGqXko+eDp42sydYSBeJuSm5a1sLf8zakmo8u7tA8NmBgoDLA1HeOESjp9A==}
+    engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
-      vite: ^3.0.0
+      vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
       vite: 3.0.0
