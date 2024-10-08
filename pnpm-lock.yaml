@@ -5,7 +5,7 @@ specifiers:
   '@unocss/reset': ^0.44.3
   '@vitejs/plugin-vue': ^3.0.0
   '@vueuse/core': ^8.9.4
-  typescript: ^4.7.4
+  typescript: ^5.6.3
   unocss: ^0.44.3
   unplugin-auto-import: ^0.9.3
   unplugin-vue-components: ^0.21.1
@@ -23,12 +23,12 @@ devDependencies:
   '@unocss/reset': 0.44.3
   '@vitejs/plugin-vue': 3.0.0_vite@3.0.0+vue@3.2.37
   '@vueuse/core': 8.9.4_vue@3.2.37
-  typescript: 4.7.4
+  typescript: 5.6.3
   unocss: 0.44.3_vite@3.0.0
   unplugin-auto-import: 0.9.3_igzpz7txtkvqhsyb7lqflohcry
   unplugin-vue-components: 0.21.1_vite@3.0.0+vue@3.2.37
   vite: 3.0.0
-  vue-tsc: 0.38.8_typescript@4.7.4
+  vue-tsc: 0.38.8_typescript@5.6.3
 
 packages:
 
@@ -1193,9 +1193,9 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /typescript/4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
@@ -1392,14 +1392,14 @@ packages:
       vue: 3.2.37
     dev: false
 
-  /vue-tsc/0.38.8_typescript@4.7.4:
+  /vue-tsc/0.38.8_typescript@5.6.3:
     resolution: {integrity: sha512-hhyc5SODiekcYNXG08aNg17LogR19o3i14avVejo+Fm45Dqk9Ke6rb0M19HoTKdQGfZBgqg2VUboYxmtAukWeg==}
     hasBin: true
     peerDependencies:
       typescript: '*'
     dependencies:
       '@volar/vue-typescript': 0.38.8
-      typescript: 4.7.4
+      typescript: 5.6.3
     dev: true
 
   /vue/3.2.37:
