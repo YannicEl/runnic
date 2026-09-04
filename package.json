@@ -13,11 +13,11 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.45",
-    "@unocss/reset": "^0.44.3",
+    "@unocss/reset": "^66.10.0",
     "@vitejs/plugin-vue": "^3.0.0",
     "@vueuse/core": "^8.9.4",
     "typescript": "^4.7.4",
-    "unocss": "^0.44.3",
+    "unocss": "^66.10.0",
     "unplugin-auto-import": "^0.9.3",
     "unplugin-vue-components": "^0.21.1",
     "vite": "^3.0.0",
