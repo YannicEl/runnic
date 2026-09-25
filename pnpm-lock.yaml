@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^16.11.45
+  '@types/node': ^24.19.0
   '@unocss/reset': ^0.44.3
   '@vitejs/plugin-vue': ^3.0.0
   '@vueuse/core': ^8.9.4
@@ -19,7 +19,7 @@ dependencies:
   vue-router: 4.1.2_vue@3.2.37
 
 devDependencies:
-  '@types/node': 16.11.45
+  '@types/node': 24.19.0
   '@unocss/reset': 0.44.3
   '@vitejs/plugin-vue': 3.0.0_vite@3.0.0+vue@3.2.37
   '@vueuse/core': 8.9.4_vue@3.2.37
@@ -148,8 +148,10 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@types/node/16.11.45:
-    resolution: {integrity: sha512-3rKg/L5x0rofKuuUt5zlXzOnKyIHXmIu5R8A0TuNDMF2062/AOIDBciFIjToLEJ/9F9DzkHNot+BpNsMI1OLdQ==}
+  /@types/node/24.19.0:
+    resolution: {integrity: sha512-zY+5tKxXdhGh1PYI0ac+7juvEu4OI6vWtVVoj5i2m42jxAY1U+zHGt6QCyOFwykdP62sM3MJ9stoYYUw5aCWew==}
+    dependencies:
+      undici-types: 7.24.6
     dev: true
 
   /@types/web-bluetooth/0.0.14:
@@ -1209,6 +1211,10 @@ packages:
       '@antfu/utils': 0.5.2
       defu: 6.0.0
       jiti: 1.14.0
+    dev: true
+
+  /undici-types/7.24.6:
+    resolution: {integrity: sha512-WRNW+sJgj5OBN4/0JpHFqtqzhpbnV0GuB+OozA9gCL7a993SmU+1JBZCzLNxYsbMfIeDL+lTsphD5jN5N+n0zg==}
     dev: true
 
   /undici/5.7.0:
